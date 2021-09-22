@@ -17,7 +17,7 @@ class WxListener(object):
         self.record_folder = make_record_directory()
         self.db = MysqlController(db_address='localhost',
                                   db_user='root',
-                                  db_pwd='jc17462315',
+                                  db_pwd='123456',
                                   db_name='message')
 
     @staticmethod
